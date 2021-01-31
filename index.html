@@ -10,43 +10,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <link href="static/css/custom.css" rel="stylesheet">
+    <link href="assets/style/custom.css" rel="stylesheet">
 
     <title>EA6FO station remote control</title>
 </head>
 
 <body>
-    <!-- Top navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">EA6FO station remote control</a>
+    <!-- Top container -->
+
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+        <div class="bg-dark container-fluid py-2">
+            <div class="container">
+                <h2 class="m-0 text-white">EA6FO station remote control</h2>
+            </div>
+            <div class="navbar-nav ml-auto mx-2">
+                <li id="not-logged-in" class="nav-item">
+                    <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0" href="#">Login</a>
+                </li>
+                <li id="logged-in" class="nav-item d-none">
+                    <img id="user-picture" class="ml-auto text-right my-2 my-sm-0">
+                    <a id="user-email" class="btn ml-auto text-right my-2 my-sm-0"></a>
+                    <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0" href="#">Logout</a>
+                </li>
+            </div>
         </div>
-        <div class="navbar-nav ml-auto">
-            <li id="not-logged-in" class="nav-item">
-                <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0" href="#">Login</a>
-            </li>
-            <li id="logged-in" class="nav-item d-none">
-                <img id="user-picture" class="ml-auto text-right my-2 my-sm-0">
-                <a id="user-email" class="btn ml-auto text-right my-2 my-sm-0"></a>
-                <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0" href="#">Logout</a>
-            </li>
-        </div>
-        <!-- <ul class="navbar-nav ml-auto">
-            <li id="title" class="nav-brand">
-                hello
-            </li>
-            <li id="not-logged-in" class="nav-item">
-                <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0" href="#">Login</a>
-            </li>
-            <li id="logged-in" class="nav-item d-none">
-                <img id="user-picture" class="ml-auto text-right my-2 my-sm-0">
-                <a id="user-email" class="btn ml-auto text-right my-2 my-sm-0"></a>
-                <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0" href="#">Logout</a>
-            </li>
-        </ul> -->
-    </nav>
+    </header>
+
+    <!-- Next container -->
+    <div class="container">
+        <p>Hello, world!</p>
+    </div>
+
     
-    <h1>Hello, world!</h1>
+
 
     <!-- Popover and JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
