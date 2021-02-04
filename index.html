@@ -9,6 +9,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="assets/style/custom.css" rel="stylesheet">
 
@@ -36,13 +39,82 @@
         </div>
     </header>
 
-    <!-- Next container -->
-    <div class="container">
-        <p>Hello, world!</p>
-    </div>
+    <!-- Carousel -->
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1" class=""></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/IMG_20201125_125131_509.jpg" class="d-block w-100"
+                        alt="Image not available">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/IMG_20201125_123942_850.jpg" class="d-block w-100"
+                        alt="Image not available">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/IMG_20200214_083327_844.jpg" class="d-block w-100"
+                        alt="Image not available">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
 
-    
+        <!-- Next container -->
+        <div class="container marketing">
 
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <div class="icon">
+                        <i class="far fa-compass fa-5x"></i>
+                    </div>
+                    <h2>Rotators</h2>
+                    <p>Remote control of the rotators</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Go to page »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 text-center">
+                    <div class="icon">
+                        <i class="fas fa-arrows-alt fa-5x"></i>
+                    </div>
+                    <h2>Switches</h2>
+                    <p>Remote control of the switches</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Go to page »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 text-center">
+                    <div class="icon">
+                        <i class="fas fa-headphones fa-5x"></i>
+                    </div>
+                    <h2>Audio</h2>
+                    <p>Audio streaming of the radios</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Go to page »</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 text-center">
+                    <div class="icon">
+                        <i class="fab fa-google-drive fa-5x"></i>
+                    </div>
+                    <h2>Drive</h2>
+                    <p>Google Drive public folder</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">Go to page »</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+
+
+        </div>
+    </main>
 
     <!-- Popover and JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
