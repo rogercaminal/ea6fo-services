@@ -1,8 +1,59 @@
 .navbar {
     padding-top: 0;
+    padding-bottom: 0;
 }
 
+/* CUSTOMIZE THE BODY
+-------------------------------------------------- */
+body {
+    background-color:white
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
 header .container-fluid {
     display: flex;
     justify-content: space-between;
 }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.marketing .col-lg-4 {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  /* .icon {
+    background: #ffc0c0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+} */
+
+  i.far {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    width: 100px;
+    height: 100px;
+  }
+
+  i.fas {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    width: 100px;
+    height: 100px;
+  }
+
+  i.fab {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    width: 100px;
+    height: 100px;
+  }
