@@ -8,6 +8,7 @@
 body {
     background-color:white;
     color: #40484f;
+    font-family: 'Abel', sans-serif;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -15,6 +16,15 @@ body {
 header .container-fluid {
     display: flex;
     justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left h2 {
+  font-size: 20px;
 }
 
 .logo {
@@ -215,3 +225,6 @@ header .container-fluid {
     opacity: 1;
   }
 
+  @media only screen and (max-width: 767px) {
+    .header-left h2 { display: none; }
+  }
